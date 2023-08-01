@@ -5,8 +5,6 @@
     font-family: 'Inter', sans-serif;
     box-sizing: border-box;
     
-
-    
 }
 
 :root {
@@ -17,7 +15,7 @@
 
 }
 
-header { 
+.cabecalho { 
     background-color: var(--preto);
     padding: 23px;
     
@@ -66,6 +64,10 @@ header {
     text-align: center;
 }
 
+.banner_loja {
+    width: 100%
+}
+
 .categorias {
     display: flex;
     list-style-type: none;
@@ -84,41 +86,116 @@ header {
     border: 2px solid var(--preto);
     background-color: var(--preto);
     color: var(--branco);
+    border-width: 5px 10px 10px;
 }
+
+/* .produtos {
+    display: grid; 
+    grid-template-columns: 33% 33% 33%;
+    list-style-type: none;
+    justify-items: center;
+} */ 
 
 .produtos {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
     list-style-type: none;
     gap: 30px;
-   
-}
+    margin: 10px;
+}  
 
-
-.desc_produto {
+.idk {
     font-size: 13px;
-    max-width: 60%;
+    width: 290px;
 }
 
-.desc_produto1 {
-    max-width: 80%;
-    font-size: 13px;
 
-}
-
-.desc_produto2 {
-    max-width: 70%;
-    font-size: 13px;
-}
 
 .box_produto {
     border: 2px solid var(--roxo);
     color: var(--branco);
     background: var(--roxo);
     text-align: center;
-    width: 20%;
+    border-width: 5px 10px 5px 10px;
+    margin-top: 10px;
+    display: inline-block;
+   
+} 
+
+.titulo_facilidades {
+    color: var(--branco);
+    text-align: center;
+    font-size: 32px;
 }
+
+.facilidades {
+    background-color: var(--preto);
+    margin-top: 86px;
+    padding: 40px;
+    
+}
+
+
+.facilidades_container {
+    color: white;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    gap: 32px;
+    padding: 40px;
+}
+
+.dados {
+    max-width: 85%;
+    margin-top: 10px;
+}
+
+.remarketing {
+    margin: 40px;
+    padding: 40px 493px;
+}
+
+.border_rmkt {
+    border: 2px solid var(--preto);
+    padding: 40px;
+}
+
+.desc_remarketing {
+    font-size: 20px;
+    text-align: center;
+   
+}
+
+.content_remarketing {
+   margin: 24px;
+   text-align: center;
+}
+
+.email {
+    border: 1px solid var(--preto);
+    background-color: var(--branco);
+    padding: 8px;
+    color: var(--cinza);
+    width: 456px;
+    height: 38px;
+}
+
+.submit {
+    border: 1px solid var(--roxo);
+    background-color: var(--roxo);
+    border-width: 9px;
+    color: var(--branco);
+    text-decoration: none;
+}
+
+footer {
+    background-color: var(--preto);
+    padding: 14px;
+    color: var(--branco);
+    text-align: center;
+}
+
+
 
 
 
